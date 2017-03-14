@@ -1,4 +1,4 @@
 #!/bin/bash
 
 source `dirname $0`/passphrase
-openssl enc -d -base64 -aes-256-cbc -pass $PASS_FIXED 2> /dev/null || cat
+openssl enc -d -base64 -aes-256-cbc -pass $PASS_FIXED -nosalt 2> /dev/null || cat
