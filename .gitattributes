@@ -1,1 +1,2 @@
-encrypt/*.yml filter=openssl diff=openssl
+# encrypt/*.yml filter=openssl diff=openssl
+encrypt/*.yml  filter=crypt diff=crypt
