@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source `dirname $0`/passphrase
+openssl enc -base64 -aes-256-cbc -pass $PASS_FIXED -nosalt

@@ -1,0 +1,1 @@
+encrypt/*.yml filter=openssl diff=openssl
